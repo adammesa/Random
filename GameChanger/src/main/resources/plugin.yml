@@ -1,0 +1,10 @@
+author: muffinjello
+database: false
+description: Let's you change player gamemodes to a gamemode of your own choice when
+  they join the server!
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.muffinjello.requests.gamechanger.Gamechanger
+name: GameChanger
+startup: postworld
+url: http://www.shortcutminecraft.com/
+version: '1.0'
