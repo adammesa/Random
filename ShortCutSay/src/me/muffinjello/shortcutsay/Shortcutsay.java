@@ -9,7 +9,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Shortcutsay extends JavaPlugin implements Listener {
-    public String Message = "";
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
     }
@@ -23,10 +22,8 @@ public class Shortcutsay extends JavaPlugin implements Listener {
             String s = "";
             for (int x = 0; x < args.length; x++){
                 s = s + args[x] + " ";
-                Message = s;
             }
-            Bukkit.broadcastMessage(Message.replaceAll("(&([a-f0-9]))", "§$2"));
-            return true;
+            Bukkit.broadcastMessage(s.replaceAll("(&([a-f0-9]))", "§$2"));
         }
         return true;
     }
