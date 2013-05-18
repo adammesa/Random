@@ -8,3 +8,6 @@ Feel free to look at,  mess around with, and hack away at any of the code in thi
 
 ###GameChanger
 Created for server owners who want to change the gamemode of players who do not have the permission **gamechanger.bypass** to survival when they join the server!
+
+###ShortcutSay
+Created to allow commands that bypass [SERVER] and similiar prefixes when speaking from the command line
