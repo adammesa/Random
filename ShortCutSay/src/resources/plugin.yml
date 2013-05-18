@@ -1,0 +1,13 @@
+author: muffinjello
+database: false
+description: Let's you use /say with no prior formatting! A simple broadcasting plugin!
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.muffinjello.shortcutsay.Shortcutsay
+name: ShortCutSay
+startup: postworld
+url: http://www.shortcutminecraft.com/
+version: '1.0'
+commands:
+    +say:
+        description: Broadcast a message
+        usage: /+say <mesage>
