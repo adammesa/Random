@@ -10,4 +10,7 @@ Feel free to look at,  mess around with, and hack away at any of the code in thi
 Created for server owners who want to change the gamemode of players who do not have the permission **gamechanger.bypass** to survival when they join the server!
 
 ###ShortcutSay
-Created to allow commands that bypass [SERVER] and similiar prefixes when speaking from the command line
+Created to allow commands that bypass [SERVER] and similiar prefixes when speaking from the command line, or in game.
+Requires the sender to have the **shortcutsay.use** permission! (Color codes using &[number/Letter] work in the messages!)
+Command:  
+/+say [message]
